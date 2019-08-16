@@ -1,0 +1,19 @@
+[package]
+name = "lpc"
+description = "Procedure call to long-running multi-threaded services within the same process"
+version = "0.0.0"
+authors = ["Lilis Iskandar <lilis@veand.co>"]
+edition = "2018"
+
+[dependencies]
+crossbeam = "0.7"
+log = "0.4"
+
+[dev-dependencies]
+veandco_logger = "0.1"
+
+[lib]
+name = "lpc"
+
+[[example]]
+name = "simple"
